@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { setFilter } from 'redux/actions';
 import { InputAdornment, TextField } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
+import { setFilter } from 'redux/actions';
 
 export const Filter = () => {
   const dispatch = useDispatch();
